@@ -16,6 +16,7 @@ namespace OpdrachtASPCoreDag2
         }
 
         public virtual DbSet<Teacher> Teacher { get; set; }
+        public virtual DbSet<Motor> Motor { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -47,7 +48,21 @@ namespace OpdrachtASPCoreDag2
                     .HasMaxLength(250)
                     .IsUnicode(false);
             });
+            modelBuilder.Entity<Motor>(entity =>
+            {
 
+                entity.Property(e => e.Merk)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Type)
+                    .IsRequired()
+                    .HasMaxLength(250)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Prijs);
+            });
             OnModelCreatingPartial(modelBuilder);
         }
 

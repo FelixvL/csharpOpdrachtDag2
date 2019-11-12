@@ -31,8 +31,13 @@ namespace OpdrachtASPCoreDag2.Controllers
             g.Salary = 5;
             g.TotalStudents = 14;
             c.Teacher.Add(g);
-            c.SaveChanges();
             var ab = c.Teacher.Where(a => a.Name == "Fred").ToList();
+            Motor m = new Motor();
+            m.Merk = "BMW";
+            m.Prijs = 134;
+            m.Type = "Zalco";
+            c.Motor.Add(m);
+            c.SaveChanges();
             return View(ab);
         }
 

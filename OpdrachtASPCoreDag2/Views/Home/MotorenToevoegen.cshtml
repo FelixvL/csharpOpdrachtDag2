@@ -1,0 +1,13 @@
+﻿@model MotorModel
+
+MotorenToevoegen
+
+@using (Html.BeginForm("VoegToePost", "Motor")) { 
+
+    @Html.LabelFor( a => a.Merk)
+    @Html.TextBoxFor( a => a.Merk )
+
+    <button type="submit" > Add </button>
+
+}
+         

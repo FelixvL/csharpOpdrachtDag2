@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OpdrachtASPCoreDag2.Repositories;
 
 namespace OpdrachtASPCoreDag2
 {
@@ -25,6 +26,7 @@ namespace OpdrachtASPCoreDag2
         {
             services.AddControllersWithViews();
             services.AddSingleton<Opdracht1coredag2Context>();
+            services.AddScoped<IMotorRepository, MotorRepository>();
 
         }
 

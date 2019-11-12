@@ -1,0 +1,11 @@
+﻿@using OpdrachtASPCoreDag2.Models;
+@model List<MotorModel>
+
+
+    <table>
+        @foreach (var motor in Model)
+        {
+            <tr><td>@motor.Merk</td><td>@motor.Type</td><td>@motor.Prijs</td></tr>
+        }
+        <tr><td></td><td></td><td>@Html.ActionLink("Add","VoegToe","Motor")</td></tr>
+    </table>
