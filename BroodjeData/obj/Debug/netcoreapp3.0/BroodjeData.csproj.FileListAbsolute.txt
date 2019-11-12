@@ -1,0 +1,5 @@
+C:\Users\NextProgram\source\repos\OpdrachtASPCoreDag2\BroodjeData\bin\Debug\netcoreapp3.0\BroodjeData.deps.json
+C:\Users\NextProgram\source\repos\OpdrachtASPCoreDag2\BroodjeData\bin\Debug\netcoreapp3.0\BroodjeData.dll
+C:\Users\NextProgram\source\repos\OpdrachtASPCoreDag2\BroodjeData\obj\Debug\netcoreapp3.0\BroodjeData.csprojAssemblyReference.cache
+C:\Users\NextProgram\source\repos\OpdrachtASPCoreDag2\BroodjeData\obj\Debug\netcoreapp3.0\BroodjeData.AssemblyInfoInputs.cache
+C:\Users\NextProgram\source\repos\OpdrachtASPCoreDag2\BroodjeData\obj\Debug\netcoreapp3.0\BroodjeData.AssemblyInfo.cs

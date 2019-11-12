@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpdrachtASPCoreDag2", "OpdrachtASPCoreDag2\OpdrachtASPCoreDag2.csproj", "{42F626B4-1D87-4861-899D-577959DB118F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroodjeData", "BroodjeData\BroodjeData.csproj", "{B147588D-7833-4A10-ADF1-7A0816D2B8DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F626B4-1D87-4861-899D-577959DB118F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F626B4-1D87-4861-899D-577959DB118F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F626B4-1D87-4861-899D-577959DB118F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F626B4-1D87-4861-899D-577959DB118F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B147588D-7833-4A10-ADF1-7A0816D2B8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B147588D-7833-4A10-ADF1-7A0816D2B8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B147588D-7833-4A10-ADF1-7A0816D2B8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B147588D-7833-4A10-ADF1-7A0816D2B8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBB06F14-9875-4728-A95A-B84A76F94990}
+	EndGlobalSection
+EndGlobal
