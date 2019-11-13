@@ -29,15 +29,17 @@ namespace OpdrachtASPCoreDag2.Controllers
             g.Name = "Fred";
             g.Skills = "nope";
             g.Salary = 5;
+            _logger.LogWarning("Here we are");
+            Console.WriteLine("Hi all");
             g.TotalStudents = 14;
-            c.Teacher.Add(g);
+          //  c.Teacher.Add(g);
             var ab = c.Teacher.Where(a => a.Name == "Fred").ToList();
             Motor m = new Motor();
             m.Merk = "BMW";
             m.Prijs = 134;
             m.Type = "Zalco";
-            c.Motor.Add(m);
-            c.SaveChanges();
+           // c.Motor.Add(m);
+           // c.SaveChanges();
             return View(ab);
         }
 
